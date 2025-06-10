@@ -1,17 +1,17 @@
-const Controles = ({ onGolLocal, onGolVisitante }) => {
+const Controles = ({ onGolLocal, onGolVisitante, tarjetasAmLocal, tarjetasRoLocal, tarjetasAmVisitante, tarjetasRoVisitante }) => {
   return (
     <div className="controles">
       <div>
         <h3>Local</h3>
-        <button onClick={() => { onGolLocal('local') }}>⚽ Gol</button>
-        <button>🟨 Amarilla</button>
-        <button>🟥 Roja</button>
+        <button onClick={() => onGolLocal()}>⚽ Gol</button>
+        <button onClick={()=> tarjetasAmLocal()}>🟨 Amarilla</button>
+        <button onClick={()=> tarjetasRoLocal()}>🟥 Roja</button>
       </div>
       <div>
         <h3>Visitante</h3>
-        <button onClick={() => { onGolVisitante('visitante') }}>⚽ Gol</button>
-        <button>🟨 Amarilla</button>
-        <button>🟥 Roja</button>        
+        <button onClick={() => onGolVisitante()}>⚽ Gol</button>
+        <button onClick={()=> tarjetasAmVisitante()}>🟨 Amarilla</button>
+        <button onClick={()=> tarjetasRoVisitante()}>🟥 Roja</button>        
       </div>
     </div>
   )
