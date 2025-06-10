@@ -10,13 +10,13 @@
 
 ## Tareas
 
-### Tarea 1: ⚽ Arreglar el botón de sumar goles al equipo visitante ⚽
+### Tarea 1: ⚽ Arreglar el botón de sumar goles al equipo visitante ⚽ (2 Puntos)
 
-### Tarea 2: 🟨 Agregar la funcionalidad para contar las tarjetas amarillas 🟨
+### Tarea 2: 🟨 Agregar la funcionalidad para contar las tarjetas amarillas 🟨 (3 Puntos)
 
-### Tarea 3: 🟥 Agregar la funcionalidad para contar las tarjetas rojas 🟥
+### Tarea 3: 🟥 Agregar la funcionalidad para contar las tarjetas rojas 🟥 (3 Puntos)
 
-### Tarea 4: 🔄 Agregar un botón para reiniciar el estado del partido 🔄
+### Tarea 4: 🔄 Agregar un botón para reiniciar el estado del partido 🔄 (2 Puntos)
 
 ## Notas
 
