@@ -9,14 +9,17 @@ function App() {
     golesVisitante: 0
   })
 
-  const onGol = (equipo) => {
+  const onGolLocal = () => {
     setPartido({ ...partido, golesLocal: partido.golesLocal + 1 })
+  }
+  const onGolVisitante=()=> {
+    setPartido({...partido,golesVisitante: partido.golesVisitante + 1})
   }
 
   return (
     <div className='container'>
       <h1>Partido</h1>
-      <Controles onGol={onGol} />
+      <Controles onGolLocal={onGolLocal} onGolVisitante={onGolVisitante} />
       <Display partido={partido} />
     </div>
   )
