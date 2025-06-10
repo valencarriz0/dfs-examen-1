@@ -31,7 +31,14 @@ function App() {
   const tarjetasRoVisitante=()=> {
     setPartido({...partido,rojaVisitante: partido.rojaVisitante+1})
   }
-
+  const volverAlInicio=()=> setPartido({
+    golesLocal: 0,
+    golesVisitante: 0,
+    amarillaLocal: 0,
+    rojaLocal: 0,
+    amarillaVisitante: 0,
+    rojaVisitante: 0,
+  })
   return (
     <div className='container'>
       <h1>Partido</h1>
@@ -39,6 +46,7 @@ function App() {
         tarjetasAmLocal={tarjetasAmLocal} tarjetasAmVisitante={tarjetasAmVisitante}
         tarjetasRoLocal={tarjetasRoLocal} tarjetasRoVisitante={tarjetasRoVisitante} />
       <Display partido={partido} />
+      <button onClick={volverAlInicio}>🔄 Reiniciar estado del partido</button>
     </div>
   )
 }
