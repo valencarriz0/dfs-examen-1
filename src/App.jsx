@@ -35,7 +35,9 @@ function App() {
   return (
     <div className='container'>
       <h1>Partido</h1>
-      <Controles onGolLocal={onGolLocal} onGolVisitante={onGolVisitante} tarjetasAmLocal={tarjetasAmLocal} tarjetasAmVisitante={tarjetasAmVisitante} />
+      <Controles onGolLocal={onGolLocal} onGolVisitante={onGolVisitante} 
+        tarjetasAmLocal={tarjetasAmLocal} tarjetasAmVisitante={tarjetasAmVisitante}
+        tarjetasRoLocal={tarjetasRoLocal} tarjetasRoVisitante={tarjetasRoVisitante} />
       <Display partido={partido} />
     </div>
   )
